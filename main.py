@@ -29,7 +29,7 @@ app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 ckeditor = CKEditor(app)
 Bootstrap5(app)
 
-# Configure Flask-Login
+# TODO: Configure Flask-Login
 
 login_manager = LoginManager()
 login_manager.init_app(app)
@@ -65,7 +65,7 @@ class BlogPost(db.Model):
     comments = relationship("Comment", back_populates="parent_post")
 
 
- # Create a User table for all your registered users.
+# TODO: Create a User table for all your registered users.
 
 class User(UserMixin, db.Model):
     __tablename__ = "users"
@@ -263,4 +263,4 @@ def contact():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5003)
+    app.run(debug=True, port=5004)

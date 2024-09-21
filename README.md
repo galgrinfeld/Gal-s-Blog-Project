@@ -1,6 +1,6 @@
 # Flask Blog Application
 ## Overview
-This is a simple blog application built with Flask, featuring user authentication, the ability to create and manage blog posts, and a commenting system. Users can register, log in, and interact with posts.
+This is a blog application built with Flask, featuring user authentication, the ability to create and manage blog posts, and a commenting system. Users can register, log in, and interact with posts.
 
 ## Features
 - User registration and login
@@ -8,6 +8,7 @@ This is a simple blog application built with Flask, featuring user authenticatio
 - Comment on blog posts (registered users only)
 - Gravatar integration for user avatars
 - Rich text editing with CKEditor
+- Password hash generating with werkzeug.security
 
 ## Technologies Used
 - Python
@@ -49,7 +50,7 @@ pip install -r requirements.txt
 ```
 ### Running the Application
 ``` bash 
-python app.py
+python main.py
  ```
 
 Access the application in your web browser at ``http://127.0.0.1:5003``.
