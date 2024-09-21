@@ -61,7 +61,9 @@ Access the application in your web browser at ``http://127.0.0.1:5003``.
 - Update the ``SECRET_KEY`` in ``app.py`` for added security.
 
 ## Useage
-1. Register a new account.
+1. Register a new account or use one of those:
+    - username: ``admin@email.com``, password: ``admin``
+    - username: ``user@gmail.com``, password: ``user``
 2. Log in to create new blog posts (admin users only).
 3. Comment on posts as a registered user.
 
@@ -72,7 +74,6 @@ This project is licensed under the MIT License.
 ## Acknowledgments
 
 - [Flask](https://flask.palletsprojects.com/en/3.0.x/)
-
 - [Bootstrap](https://getbootstrap.com/)
 - [CKEditor](https://ckeditor.com/)
 - [Flask-Login](https://flask-login.readthedocs.io/en/latest/)
