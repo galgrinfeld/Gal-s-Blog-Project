@@ -1,4 +1,9 @@
 # Flask Blog Application
+
+![Screenshot 2024-09-21 191350](https://github.com/user-attachments/assets/dfee54d9-a64c-4b50-a406-8fb3b6691988)
+
+
+
 ## Overview
 This is a blog application built with Flask, featuring user authentication, the ability to create and manage blog posts, and a commenting system. Users can register, log in, and interact with posts.
 
@@ -60,7 +65,7 @@ Access the application in your web browser at ``http://127.0.0.1:5003``.
 
 - Update the ``SECRET_KEY`` in ``app.py`` for added security.
 
-## Useage
+## Usage
 1. Register a new account or use one of those:
     - username: ``admin@email.com``, password: ``admin``
     - username: ``user@gmail.com``, password: ``user``
